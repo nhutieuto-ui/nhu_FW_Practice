@@ -38,6 +38,10 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test --workers=${{ github.event.inputs.workers }}
 
+      - name: Install Allure CLI
+        if: always()
+        run: npm install -g allure-commandline
+
       - name: Generate Allure HTML report
         if: always()
         run: npm run report:allure:html
