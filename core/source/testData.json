@@ -1,0 +1,75 @@
+{
+  "login": {
+    "valid": {
+      "username": "nhutest123",
+      "password": "abcd1234."
+    },
+    "blank": {
+      "username": "",
+      "password": ""
+    }
+  },
+  "profile": {
+    "newFullName": "Nhu Test updated",
+    "originalFullName": "Nhu Test"
+  },
+  "home": {
+    "products": {
+      "sneaker": "Giày sneaker",
+      "handbag": "Túi xách nữ"
+    }
+  },
+  "cart": {
+    "singleproducttest": {
+      "productName": "Giày sneaker",
+      "quantity": 1,
+      "unitPrice": "599.000đ",
+      "expectedTotal": "599.000đ"
+    },
+    "sameProductTwice": {
+      "productName": "Giày sneaker",
+      "quantity": 2,
+      "unitPrice": "599.000đ",
+      "expectedTotal": "1.198.000đ"
+    },
+    "multipleProductsTest": {
+      "productNames": ["Giày sneaker", "Túi xách nữ"]
+    }
+  },
+   "checkout": {
+    "recipient": {
+      "fullName": "Nhu Test",
+      "address": "123 Đường ABC, Quận 1, TP.HCM",
+      "phoneNumber": "0123456789"
+    },
+    "paymentMethod": {
+      "cod": "cash",
+      "card": "card"
+    }
+  },
+  "order": {
+    "items": [
+      {
+        "productId": "6a7a9e86e2d153db06c00d8f",
+        "name": "Túi xách nữ",
+        "price": 349000,
+        "quantity": 2,
+        "emoji": "👜"
+      }
+    ],
+    "recipientName": "Nhu Test",
+    "recipientPhone": "0123456789",
+    "address": "123 Đường ABC, Quận 1, TP.HCM",
+    "paymentMethod": "cash",
+    "totalPrice": 698000
+  },
+  "orderDetail": {
+    "status": "Đã xác nhận",
+    "itemName": "Túi xách nữ",
+    "quantity": "2",
+    "itemPrice": "698.000đ",
+    "recipient": "Nhu Test",
+    "totalPrice": "698.000đ",
+    "paymentMethod": "Tiền mặt (COD)"
+  }
+}
