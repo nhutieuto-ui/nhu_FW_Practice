@@ -2,7 +2,11 @@
   "name": "s4",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chromium": "npx playwright test --project=chromium --workers=1",
+    "report:allure:html": "allure generate allure-results --clean -o reports/allure-html-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
